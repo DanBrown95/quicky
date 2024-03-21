@@ -1,0 +1,45 @@
+.container {
+    position: absolute;
+    width: 480px;
+    height: 320px;
+    background-color: black;
+}
+
+.top{
+    display: block;
+    height: 50%;
+    position: relative;
+}
+
+.middle {
+    display: block;
+    height: 15%;
+    position: relative;
+}
+
+.bottom {
+    display: block;
+    height: 35%;
+    position: relative;
+}
+
+#direction, #arrow, #distance{
+    width: 80%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    text-align: center;
+    transform: translate(-50%, -50%)
+}
+
+#arrow {
+    width: 50%;
+    height: 95%;
+}
+
+#direction, #distance {
+    color: white;
+    font-size: 1.5em;
+}
